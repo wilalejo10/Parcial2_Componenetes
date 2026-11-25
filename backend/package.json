@@ -1,0 +1,9 @@
+{
+  "name": "backend-parcial-gastos-viajes",
+  "version": "1.0.0",
+  "description": "API REST para administrar viajes y sus gastos",
+  "main": "src/server.js",
+  "scripts": {"start": "node src/server.js", "dev": "node --watch src/server.js", "seed": "node src/database/seed.js"},
+  "engines": {"node": ">=22.13.0"},
+  "dependencies": {"express": "^5.1.0", "swagger-ui-express": "^5.0.1"}
+}
